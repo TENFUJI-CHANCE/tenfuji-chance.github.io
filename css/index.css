@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* 网站用css文件*/
+
+@font-face {
+    font-family: 'Aa舒云宋';
+    src: url('./font/AaShuYunSong-2.ttf');
+}
+
+/* html used*/
+html {
+    scroll-behavior: smooth;
+}
+
+/* body used*/
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#navi {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#navi nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Aa舒云宋', sans-serif;
+}
+
+#navi img {
+    position: relative;
+    width: max-content;
+}
+
+#navi ul {
+    display: inherit;
+    width: fit-content;
+    padding-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    list-style-type: none;
+    border: 3px solid rgba(65, 18, 109, 0.482);
+    background-color: rgba(213, 89, 80, 0.5);
+}
+
+#navi ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    border-left: 2px solid rgba(65, 18, 109, 0.482);
+    padding: 0 40px;
+    float: left;
+    text-align: center;
+}
+
+#navi .first {
+    margin-left: 20px;
+}
+
+#navi a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: linear 0.5s;
+}
+
+#navi li a:hover {
+    color: rgba(0, 254, 55, 0.712);
+}
+
+main {
+    display: flex;
+    text-align: center;
+}
+
+.n_c{
+    display: flex;
+    flex-direction: row;
+    align-content: start;
+    justify-content: center;
+    column-count: 2;
+    background-image: linear-gradient(to top left, rgba(251, 125, 231, 0.6), transparent 20% 80%, rgba(251, 125, 231, 0.6));
+}
+
+.news {
+    width: 600px;
+    height: 300px;
+    text-align: start;
+}
+
+.news .news_part {
+    padding: 0 10px;
+    border-left: 4px solid rgba(250, 95, 129);
+    border-right: 4px solid rgba(250, 95, 129);
+    overflow-y: scroll;
+}
+
+.news li {
+    list-style-type: none;
+    border-top: 1px solid #333333;
+    margin: 20px 0;
+}
+
+.contact{
+    text-align: start;
+    margin-left: 50px;
+}
+
+#story {
+    width: 100%;
+    background-image: url('../image/story_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: rgb(48, 10, 76);
+    font-family: 'Aa舒云宋', sans-serif;
+    display: inline-block;
+    margin: 90px auto;
+    text-shadow: 2px 2px rgb(255, 255, 191);
+}
+
+#story p {
+    font-size: 20px;
+    margin: 80px 300px;
+}
+
+#story .story_left {
+    text-align: left;
+}
+
+#story .story_right {
+    text-align: right;
+}
+
+#story article {
+    padding-bottom: 100px;
+}
+
+#character {
+    display: grid;
+    align-items: center;
+    background-image: url('../image/chara_bg.png');
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.chara_pic {
+    text-align: center;
+    position: relative;
+}
+
+.chara_pic img {
+    width: 40%;
+    transition: 1s;
+}
+
+.pic_silder {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pic_silder ul {
+    display: inherit;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.pic_silder li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto 10px;
+    background-color: black;
+    list-style: none;
+}
+
+.pic_silder .active {
+    width: 15px;
+    height: 15px;
+}
+
+.gra_grid {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 30px 30px 30px;
+    gap: 50px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.download_con {
+    font-family: '宋体', sans-serif;
+    font-size: 20px;
+}
+
+.b-steam {
+    display: inline-block;
+    margin: auto;
+    background-color: white;
+    width: 320px;
+    height: 100px;
+}
+
+#download {
+    background-image: linear-gradient(to top left, rgba(250, 95, 129, 0.6), transparent 20% 80%, rgba(250, 95, 129, 0.6));
+}
+
+#staff {
+    background-image: linear-gradient(to top left, rgba(159, 103, 249, 0.6), transparent 20% 80%, rgba(159, 193, 249, 0.6));
+}
+
+.author {
+    column-count: 2;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    padding-bottom: 40px;
+}
+
+.author article {
+    font-family: '宋体', sans-serif;
+    font-size: 20px;
+    margin: auto 50px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    align-content: center;
+    text-align: center;
+    font-family: 'SimSun', '宋体', sans-serif;
+}
+
+/* footer p{
+    margin-left: 200px;
+} */

@@ -1,0 +1,48 @@
+/* 群友补充css应用 */
+
+@import url('index.css');
+
+.img-container {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    /* 文字贴近底部 */
+    left: 48%;
+    bottom:-1%;
+    z-index: 100;
+    transform: translateX(-50%);
+    /* 水平居中 */
+    font-family: 'Aa舒云宋', sans-serif;
+    /* 使用镜像CDN的宋体字体 */
+    color: white;
+    /* 文字颜色，可根据需要调整 */
+    padding: 10px;
+    /* 给文字一点内边距，避免紧贴图片底部 */
+    background: transparent;
+    font-size: 95px;
+    /* 可选，背景透明度调整 */
+    white-space: nowrap;
+    /* 防止文字换行 */
+}
+
+.img-container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+    pointer-events: none;
+    /* 确保遮罩不影响图片点击 */
+}
