@@ -4,7 +4,7 @@
 [start_keyconfig]
 
 [bg storage="bg.png" ]
-[position layer="message0" left="0" top="540" page="fore" visible="true" frame="frame/02_アニメーション版/01.png" ]
+[position layer="message0" left="0" top="540" page="fore" visible="true" frame="frame/02_アニメーション版/01.png" color="black" ]
 [position layer=message0 page=fore width="1280" margint="45" marginl="50" marginr="70" marginb="60"]
 @layopt layer=message0 visible=true
 [ptext name="chara_name_area" layer="message0" color="black" size=28 bold=true x=180 y=550]
