@@ -22,7 +22,7 @@
 #本条二亚
 喂！我的介绍跟第一期的狂三比起来也太寒酸了吧！还有阿姨是什么意思啊！不把我叫姐姐也就算了，竟然用阿姨这么老的称呼来叫我？[p]
 ;（不满地挥舞着手臂，气鼓鼓地抗议）
-[chara_move name="two" left="-=360" anim="true"  effect="easeInOutSine" time="3000" wait="true" ]
+[chara_move name="two" left="-=360" anim="true"  effect="easeInOutSine" time="1000" ]
 [chara_show name="eight_1" face="cheer" left="400" top="0" ]
 #八舞夕弦
 不满，不要跟旁白较劲啦，又把我们叫到这里是要干什么？[p]
