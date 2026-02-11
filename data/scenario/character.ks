@@ -31,8 +31,8 @@
 [chara_face name="three" storage="chara/狂三/凛祢Utopia/校服常态.png" face="uniform" ]
 [chara_face name="three" storage="chara/狂三/凛祢Utopia/灵装常态.png" face="magic" ]
 ;四糸乃
-[chara_new name="four" storage="chara/四糸乃/或守Install/常态.png" ]
-[chara_face name="four" storage="chara/四糸乃/或守Install/灵装常态.png" face="magic" ]
+[chara_new name="four" storage="chara/四糸乃/凛祢Utopia/常态.png" ]
+[chara_face name="four" storage="chara/四糸乃/凛祢Utopia/灵装常态.png" face="magic" ]
 ;五河琴里
 [chara_new name="five" storage="chara/琴里/常态（白）.png" jname="五河琴里" ]
 [chara_face name="five" storage="chara/琴里/开心（白）.png" face="happy" ]
@@ -58,7 +58,8 @@
 [chara_face name="seven" storage="chara/七罪/平静.png" face="silent" ]
 [chara_face name="seven" storage="chara/七罪/你觉得你很幽默？.png" face="nocomedy"]
 [chara_face name="seven" storage="chara/七罪/愉快.png" face="cheer" ]
-[chara_face name="seven" storage="chara/凛祢/常服微笑.png" face="special" ]
+;special
+[chara_new name="special" storage="chara/凛祢/常服微笑.png" ]
 ;八舞耶俱矢
 [chara_new name="eight_1" storage="chara/耶俱矢/常态.png" ]
 [chara_face name="eight_1" storage="chara/耶俱矢/开心.png" face="happy" ]
