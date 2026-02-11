@@ -65,16 +65,16 @@
 #
 狂三瘫了摊手表示无奈，似乎已经接受了这个事实。[p]
 [chara_hide_all]
-[chara_show name="seven" face="speechless" left="140" top="-106" wait="true" ]
+[chara_show name="seven" face="speechless" left="140" top="0" wait="true" ]
 #镜野七罪
 呜啊，又是这个……[p]
 ;（痛苦地把脸埋进膝盖，声音闷闷地）
 [chara_hide name="seven"]
 #
 七罪看到这个场景后就痛苦的把脸埋进了腿里。[p]
-[chara_show name="one" face="comfort_l" left="184" top="0" ]
+[chara_show name="one" face="cf_smile" left="184" top="0" ]
 #鸢一折纸
-又是这个，这次我一定要拿到冠军，[chara_mod name="one" face="cf_smile" ]以正规的途径成为女主角然后和士道######……[p]
+又是这个，这次我一定要拿到冠军，以正规的途径成为女主角然后和士道######……[p]
 ;（面无表情，但眼神中燃烧着坚定的火焰，冷静地规划）
 [chara_hide name="one" ]
 #
@@ -86,7 +86,7 @@
 ;（困惑地环顾四周，提高了声音）
 #
 士道站起来环视周围并向二亚问道。[p]
-[chara_move name="main_chara" left="+=200" anim="true" effect="easeInOutSine" time="500" ]
+[chara_move name="main_chara" left="+=300" anim="true" effect="easeInOutSine" time="500" ]
 [chara_show name="six" left="170" top="-15" ]
 #星宫六喰
 官人也在吗，那六儿便放心了。[p]
@@ -154,18 +154,18 @@
 嫉妒，凭什么狂三小姐能有单独的故事？我和耶俱失的单人封面都要挤在一起，人气的差距的那么大吗？[p]
 ;（鼓起脸颊，语气酸溜溜的）
 [chara_move name="eight_2" left="-=315" anim="true" effect="easeInOutSine" time="1000" ]
-[chara_show name="eight_1" face="serious" left="635" top="0" ]
+[chara_show name="eight_1" face="serious" left="435" top="0" ]
 #八舞耶俱矢
 就是啊，汝真的是，最主要的是，经历过如此非凡事迹的汝为什么没有单独的外传！[p]
 ;（叉着腰，同样一脸不服气）
 #
 耶俱失和夕弦也对这个统计数据感到又羡慕又嫉妒。[p]
 [chara_hide_all]
-[chara_show name="seven" face="ache" left="800" top="-35" ]
+[chara_show name="seven" face="ache" left="65" top="0" ]
 #镜野七罪
 这就是人气角色吗…[p]
 ;（用羡慕又自愧不如的复杂眼神看着狂三，小声嘀咕）
-[chara_show name="four" face="magic" left="800" top="-35" ]
+[chara_show name="four" face="magic" left="373" top="144" ]
 #四糸乃
 狂三小姐好厉害…[p]
 ;（双手捧着脸，眼中闪着崇拜的小星星）
@@ -173,11 +173,11 @@
 #诱宵美九
 啊啊啊啊啊！原来狂三小姐还在外传里穿过这么可爱的衣服吗？！没有看过好可惜…什么时候出一本我和狂三小姐的双人故事啊！不对，既然有这种难得的机会也把达令加入进来…[p]
 ;（双手合十，陷入幻想，脸上泛起红晕）
-[chara_show name="ten" face="appalling" left="-400" top="7" ]
+[chara_show name="ten" face="appalling" left="-300" top="7" ]
 #夜刀神十香
 呜啊！狂三好强啊！[p]
 ;（张大嘴巴，由衷地赞叹）
-[chara_show name="one" face="silent" left="120" top="72" ]
+[chara_show name="one" face="silent" left="420" top="72" ]
 #鸢一折纸
 有必要靠模仿她以强制上位了…人气角色真是恐怖…不过为了当上女主角跟士道在一起我也可以忍…[p]
 ;（冷静地分析着，眼神中闪过一丝决绝）
